@@ -54,3 +54,41 @@ body, html {
     margin-left: -0.1em;
     margin-right: 0.1em;
 }
+
+.flip-container {
+	perspective: 1000px;
+    width: 14em;
+    height: 26em;
+    cursor: pointer;
+}
+	.flip-container.flipped .flipper {
+		transform: rotateY(-180deg);
+        cursor: default;
+	}
+
+.front, .back {
+	width: 12em;
+    height: 24em;
+}
+
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+
+.back {
+	transform: rotateY(180deg);
+}
