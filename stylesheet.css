@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lateef);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body, html {
     background-color: #222;
@@ -7,6 +9,7 @@ body, html {
     align-content: center;
     justify-content: center;
     margin: 0;
+    font-family: 'Open Sans', 'Arial', sans-serif;
 }
 
 .container {
@@ -93,6 +96,12 @@ body, html {
 	transform: rotateY(180deg);
     overflow: hidden;
     display: flex;
+    color: #444;
+}
+
+.back p {
+    font-size: 0.8em;
+    line-height: 2em;
 }
 
 .back.expanded {
@@ -101,22 +110,30 @@ body, html {
     left: -19em;
 }
 
-.back > div {
-    padding: 0.5em;
-}
-
 .avatar-container {
     flex: 1;
+    border-right: 1px dashed #ccc;
+    padding-right: 0.5em;
 }
 
 .intro {
     flex: 2;
+    padding: 0 0.75em;
+}
+
+.intro h1 {
+    margin: 0.25em 0 0.25em 0;
+    font-family: 'Pacifico', serif;
+    color: #036;
 }
 
 .contact {
     flex: 1;
+    border-left: 1px dashed #ccc;
+    padding-left: 0.5em;
 }
+
 .avatar {
     width:100%;
-    border-radius: 1em;
+    border-radius: 0.35em;
 }

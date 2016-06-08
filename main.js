@@ -7,7 +7,7 @@
             card.classList.add('flipped');
             setTimeout(function() {
                 card.getElementsByClassName('back')[0].classList.add('expanded');
-            }, 300);
+            }, 500);
         }
     });
 
