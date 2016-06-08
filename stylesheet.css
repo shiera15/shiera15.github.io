@@ -101,17 +101,22 @@ body, html {
     left: -19em;
 }
 
+.back > div {
+    padding: 0.5em;
+}
+
 .avatar-container {
     flex: 1;
-    height: 100%;
 }
 
 .intro {
     flex: 2;
-    height: 100%;
 }
 
 .contact {
     flex: 1;
-    height: 100%;
+}
+.avatar {
+    width:100%;
+    border-radius: 1em;
 }
