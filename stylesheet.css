@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lateef);
 
 body, html {
-    background-color: beige;
+    background-color: #222;
     height: 100%;
     display: flex;
     align-content: center;
