@@ -132,6 +132,10 @@ body, html {
     border-left: 1px dashed #ccc;
     padding-left: 0.5em;
 }
+.contact  h3{
+    font-family: 'Pacifico', serif;
+}
+
 
 .avatar {
     width:100%;
